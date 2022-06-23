@@ -1,6 +1,6 @@
 {
   "name": "movie-app",
-  "homepage": "https://Anmol-Gup.github.io/react-movie-website",
+  "homepage": "https://react-movie-website-app.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

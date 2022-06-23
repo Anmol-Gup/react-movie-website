@@ -43,7 +43,7 @@ function App() {
         <Search value={movieName} onChange={setMovie} onKeyPress={getMovieList}/><br/>
         <div className='movie_list container'>
           {
-            (found==="False")?(<NoResult image={"https://img.freepik.com/free-vector/no-data-concept-illustration_114360-616.jpg?t=st=1655978263~exp=1655978863~hmac=9b64e25a97dd58ea4244356c67cafa0e058ba900c10a516104515cec826b3730&w=740"}/>):movieList?.map((value, index) => (
+            (found==="False")?(<NoResult image={"../icon.jpg"}/>):movieList?.map((value, index) => (
               <Card prop={value} key={index} />
             ))
           }

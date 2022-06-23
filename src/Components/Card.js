@@ -1,6 +1,6 @@
 const Card = ({prop}) => {
   if(prop.Poster==="N/A")
-    prop.Poster="https://images.all-free-download.com/images/graphicwebp/movie_star_312306.webp";
+    prop.Poster="../../movie_star_312306.webp";
     return (
     <div className="card my-3 mx-3" style={{width: "18rem"}} key={prop.key}>
       <img src={prop.Poster} className="card-img-top" alt={prop.Title} />

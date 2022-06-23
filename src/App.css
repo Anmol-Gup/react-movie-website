@@ -1,0 +1,90 @@
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.main_container {
+    min-height: 100vh;
+    /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    /* height of your footer */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.movie_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#year::before {
+    content: 'Release Year: ';
+    font-weight: 700;
+}
+
+#type::before {
+    content: 'Type: ';
+    font-weight: 700;
+}
+
+.card {
+    box-shadow: 3px 10px 19px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 10px 19px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 10px 19px -6px rgba(0, 0, 0, 0.75);
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search {
+    /* display: grid;
+    place-items: center; */
+    display: block;
+    margin: auto;
+}
+
+.no_result {
+    display: grid;
+    place-items: center;
+}
+
+.no_result img {
+    width: 30rem;
+}
+@media screen and (max-width:768px) {
+    .search {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .movie_list{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    input {
+        width: 100%;
+    }
+}
+@media screen and (min-width:992px) {
+    .search {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    
+}

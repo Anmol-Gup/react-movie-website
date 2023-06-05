@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![image](https://github.com/Anmol-Gup/react-movie-website/assets/66009201/705f9ee1-246c-4157-b13e-7c25428672e2)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
